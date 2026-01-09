@@ -53,6 +53,14 @@ document.querySelector('#app').innerHTML = `
           </div>
         </a>
       </div>
+      <div class="platform YouTube Music">
+        <h2>Follow on Instagram</h2>
+        <a class="button" href="https://music.youtube.com/playlist?list=OLAK5uy_ntruUhVlHjor2lzPXJbhIgqIrjDv6BDTs&si=UARYG-j0mdIdgvqy" target="_blank">
+          <div class="icon-separator">
+            <span>Modern Shapes on Instagram</span>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
 `;
