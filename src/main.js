@@ -55,7 +55,7 @@ document.querySelector('#app').innerHTML = `
       </div>
       <div class="platform YouTube Music">
         <h2>Follow on Instagram</h2>
-        <a class="button" href="https://music.youtube.com/playlist?list=OLAK5uy_ntruUhVlHjor2lzPXJbhIgqIrjDv6BDTs&si=UARYG-j0mdIdgvqy" target="_blank">
+        <a class="button" href="https://www.instagram.com/modernshapes_/" target="_blank">
           <div class="icon-separator">
             <span>Modern Shapes on Instagram</span>
           </div>
