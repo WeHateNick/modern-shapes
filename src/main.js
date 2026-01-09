@@ -1,5 +1,10 @@
 import './style.css';
 import modernShapesLogo from '/images/modern-shapes-logo.svg';
+import coverArt from '/images/cover-art--dark-bg.svg';
+import spotifyIcon from '/images/spotify-icon.svg';
+import appleMusicIcon from '/images/apple-icon.svg';
+import amazonMusicIcon from '/images/amazon-music-icon.png';
+import youtubeMusicIcon from '/images/youtube-music-icon.svg';
 import { setupCounter } from './counter.js';
 
 document.querySelector('#app').innerHTML = `
@@ -7,23 +12,46 @@ document.querySelector('#app').innerHTML = `
     <div class="title">
       <img src="${modernShapesLogo}" class="logo" alt="Modern Shapes" />
       <h2>MOMENTS WITH OTHERS MATTER</h2>
+      <a href="https://open.spotify.com/album/03KcJx1kYvAMtJ6Iism3OL?si=fdZTJSRTTUWuqpyRiIft3w" target="_blank" alt="Modern Shapes album on Spotify">
+        <img src="${coverArt}" class="cover-art" alt="Modern Shapes" />
+      </a>
     </div>
     <div class="platforms">
       <div class="platform spotify">
         <h2>Listen on Spotify</h2>
-        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/03KcJx1kYvAMtJ6Iism3OL?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <a class="button spotify" href="https://open.spotify.com/album/03KcJx1kYvAMtJ6Iism3OL?si=fdZTJSRTTUWuqpyRiIft3w" target="_blank">
+          <div class="icon-separator">
+            <span>MOMENTS WITH OTHERS MATTER on Spotify</span>
+            <img class="icon" src="${spotifyIcon}" alt="Spotify Logo" />
+          </div>
+        </a>
       </div>
       <div class="platform apple">
         <h2>Listen on Apple Music</h2>
-        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/moments-with-others-matter/1864091636"></iframe>
+        <a class="button apple" href="https://music.apple.com/us/album/moments-with-others-matter/1864091636" target="_blank">
+          <div class="icon-separator">
+            <span>MOMENTS WITH OTHERS MATTER on Apple Music</span>
+            <img class="icon" src="${appleMusicIcon}" alt="Apple Music Logo" />
+          </div>
+        </a>
       </div>
       <div class="platform amazon">
         <h2>Listen on Amazon Music</h2>
-        <iframe id='AmazonMusicEmbedB0GCCZZSPJ' src='https://music.amazon.com/embed/B0GCCZZSPJ/?id=yT4vUQhPJX&marketplaceId=ATVPDKIKX0DER&musicTerritory=US' width='100%' height='352px' frameBorder='0' style='border-radius:20px;max-width:'></iframe>
+        <a class="button amazon" href="https://music.amazon.com/albums/B0GCCZZSPJ?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_hgfb1IAgMtZ5mfQxU76mhiX55" target="_blank">
+          <div class="icon-separator">
+            <span>MOMENTS WITH OTHERS MATTER on Amazon Music</span>
+            <img class="icon" src="${amazonMusicIcon}" alt="Amazon Music Logo" />
+          </div>
+        </a>
       </div>
       <div class="platform YouTube Music">
-        <h2>Listen on Apple Music</h2>
-        <a class="button" href="https://music.youtube.com/channel/UCaqB6IerUHT0sDT-_6HNffg?si=O4eJ2Ci522f2BV_Y" target="_blank">YouTube Music</a>
+        <h2>Listen on YouTube Music</h2>
+        <a class="button apple" href="https://music.youtube.com/playlist?list=OLAK5uy_ntruUhVlHjor2lzPXJbhIgqIrjDv6BDTs&si=UARYG-j0mdIdgvqy" target="_blank">
+          <div class="icon-separator">
+            <span>MOMENTS WITH OTHERS MATTER on YouTube Music</span>
+            <img class="icon" src="${youtubeMusicIcon}" alt="YouTube Music Logo" />
+          </div>
+        </a>
       </div>
     </div>
   </div>

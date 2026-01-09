@@ -21,7 +21,8 @@ body, html {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
+  padding: 2rem 1rem 1rem;
+  text-align: center;
 }
 
 .platforms {
@@ -29,6 +30,7 @@ body, html {
   display: flex;
   flex-flow: column;
   gap: 2rem;
+  text-align: center;
 }
 
 .logo {
@@ -38,8 +40,17 @@ body, html {
   text-align: center;
 }
 
+.cover-art {
+  max-width: 60vw;
+  width: 500px;
+  height: auto;
+  text-align: center;
+}
+
 .button {
+  display: inline-block;
   background-color: #46B44F;
+  border: 3px solid #156B38;
   padding: 0.5rem 2rem;
   border-radius: 8px;
   text-align: center;
@@ -47,4 +58,41 @@ body, html {
   font-weight: 600;
   text-decoration: none;
   color: #F1F1F1;
+}
+
+.button:hover {
+  background-color: #61B268;
+  border-color: #46B44F;
+  cursor: pointer;
+}
+
+.button.apple {
+  background-color: #FA2C44;
+  border-color: #333333;
+}
+
+.button.apple:hover {
+  background-color: #FB5A72;
+  border-color: #333333;
+}
+
+.button.amazon {
+  background-color: #21CBD6;
+  border-color: #333333;
+}
+
+.button.amazon:hover {
+  background-color: #16C2CD;
+  border-color: #333333;
+}
+
+.icon-separator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
 }
