@@ -5,6 +5,7 @@ import spotifyIcon from '/images/spotify-icon.svg';
 import appleMusicIcon from '/images/apple-icon.svg';
 import amazonMusicIcon from '/images/amazon-music-icon.png';
 import youtubeMusicIcon from '/images/youtube-music-icon.svg';
+import soundCloudIcon from '/images/soundcloud-icon.png';
 import { setupCounter } from './counter.js';
 
 document.querySelector('#app').innerHTML = `
@@ -44,12 +45,21 @@ document.querySelector('#app').innerHTML = `
           </div>
         </a>
       </div>
-      <div class="platform YouTube Music">
+      <div class="platform youtube">
         <h2>Listen on YouTube Music</h2>
         <a class="button apple" href="https://music.youtube.com/playlist?list=OLAK5uy_ntruUhVlHjor2lzPXJbhIgqIrjDv6BDTs&si=UARYG-j0mdIdgvqy" target="_blank">
           <div class="icon-separator">
             <span>MOMENTS WITH OTHERS MATTER</span>
             <img class="icon" src="${youtubeMusicIcon}" alt="YouTube Music Logo" />
+          </div>
+        </a>
+      </div>
+      <div class="platform soundcloud">
+        <h2>Listen on SoundCloud</h2>
+        <a class="button soundcloud" href="https://soundcloud.com/modern-shapes/sets/moments-with-others-matter" target="_blank">
+          <div class="icon-separator">
+            <span>MOMENTS WITH OTHERS MATTER</span>
+            <img class="icon" src="${soundCloudIcon}" alt="SoundCloud Logo" />
           </div>
         </a>
       </div>

@@ -1,15 +1,16 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
-  color: #F1F1F1;
-  font-family: "Inter", sans-serif;
+  color: #f1f1f1;
+  font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
 
 .container {
-  background-color: #211E1E;
+  background-color: #211e1e;
   height: 100%;
   width: 100vw;
   margin: 0;
@@ -49,40 +50,50 @@ body, html {
 
 .button {
   display: inline-block;
-  background-color: #46B44F;
-  border: 3px solid #156B38;
+  background-color: #46b44f;
+  border: 3px solid #156b38;
   padding: 0.5rem 2rem;
   border-radius: 8px;
   text-align: center;
   font-size: 0.85rem;
   font-weight: 500;
   text-decoration: none;
-  color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 .button:hover {
-  background-color: #61B268;
-  border-color: #46B44F;
+  background-color: #61b268;
+  border-color: #46b44f;
   cursor: pointer;
 }
 
 .button.apple {
-  background-color: #FA2C44;
+  background-color: #fa2c44;
   border-color: #333333;
 }
 
 .button.apple:hover {
-  background-color: #FB5A72;
+  background-color: #fb5a72;
+  border-color: #333333;
+}
+
+.button.soundcloud {
+  background-color: #f77e3a;
+  border-color: #333333;
+}
+
+.button.soundcloud:hover {
+  background-color: #f79660;
   border-color: #333333;
 }
 
 .button.amazon {
-  background-color: #21CBD6;
+  background-color: #21cbd6;
   border-color: #333333;
 }
 
 .button.amazon:hover {
-  background-color: #16C2CD;
+  background-color: #16c2cd;
   border-color: #333333;
 }
 
