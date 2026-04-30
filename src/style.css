@@ -67,6 +67,11 @@ html {
   cursor: pointer;
 }
 
+.button.vinyl {
+  background-color: #ff9900;
+  border-color: #333333;
+}
+
 .button.apple {
   background-color: #fa2c44;
   border-color: #333333;

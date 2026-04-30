@@ -1,6 +1,7 @@
 import './style.css';
 import modernShapesLogo from '/images/modern-shapes-logo.svg';
 import coverArt from '/images/cover-art--dark-bg.svg';
+import vinylIcon from '/images/record-vinyl-duotone-solid-full.svg';
 import spotifyIcon from '/images/spotify-icon.svg';
 import appleMusicIcon from '/images/apple-icon.svg';
 import amazonMusicIcon from '/images/amazon-music-icon.png';
@@ -18,6 +19,15 @@ document.querySelector('#app').innerHTML = `
       </a>
     </div>
     <div class="platforms">
+      <div class="platform spotify">
+          <h2>Order Vinyl or CD</h2>
+          <a class="button vinyl" href="https://elasticstage.com/modern-shapes/releases/moments-with-others-matter-album" target="_blank">
+            <div class="icon-separator">
+              <span>MOMENTS WITH OTHERS MATTER</span>
+              <img class="icon" src="${vinylIcon}" alt="Vinyl" />
+            </div>
+          </a>
+      </div>
       <div class="platform spotify">
         <h2>Listen on Spotify</h2>
         <a class="button spotify" href="https://open.spotify.com/album/03KcJx1kYvAMtJ6Iism3OL?si=fdZTJSRTTUWuqpyRiIft3w" target="_blank">
