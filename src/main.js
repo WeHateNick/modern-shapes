@@ -20,20 +20,20 @@ document.querySelector('#app').innerHTML = `
     </div>
     <div class="platforms">
       <div class="platform spotify">
-          <h2>Order Vinyl or CD</h2>
-          <a class="button vinyl" href="https://elasticstage.com/modern-shapes/releases/moments-with-others-matter-album" target="_blank">
-            <div class="icon-separator">
-              <span>MOMENTS WITH OTHERS MATTER</span>
-              <img class="icon" src="${vinylIcon}" alt="Vinyl" />
-            </div>
-          </a>
-      </div>
-      <div class="platform spotify">
         <h2>Listen on Spotify</h2>
         <a class="button spotify" href="https://open.spotify.com/album/03KcJx1kYvAMtJ6Iism3OL?si=fdZTJSRTTUWuqpyRiIft3w" target="_blank">
           <div class="icon-separator">
             <span>MOMENTS WITH OTHERS MATTER</span>
             <img class="icon" src="${spotifyIcon}" alt="Spotify Logo" />
+          </div>
+        </a>
+      </div>
+      <div class="platform youtube">
+        <h2>Listen on YouTube Music</h2>
+        <a class="button apple" href="https://music.youtube.com/playlist?list=OLAK5uy_ntruUhVlHjor2lzPXJbhIgqIrjDv6BDTs&si=UARYG-j0mdIdgvqy" target="_blank">
+          <div class="icon-separator">
+            <span>MOMENTS WITH OTHERS MATTER</span>
+            <img class="icon" src="${youtubeMusicIcon}" alt="YouTube Music Logo" />
           </div>
         </a>
       </div>
@@ -46,21 +46,21 @@ document.querySelector('#app').innerHTML = `
           </div>
         </a>
       </div>
+      <div class="platform">
+          <h2>Order Vinyl or CD</h2>
+          <a class="button vinyl" href="https://elasticstage.com/modern-shapes/releases/moments-with-others-matter-album" target="_blank">
+            <div class="icon-separator">
+              <span>MOMENTS WITH OTHERS MATTER</span>
+              <img class="icon" src="${vinylIcon}" alt="Vinyl" />
+            </div>
+          </a>
+      </div>
       <div class="platform amazon">
         <h2>Listen on Amazon Music</h2>
         <a class="button amazon" href="https://music.amazon.com/albums/B0GCCZZSPJ?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_hgfb1IAgMtZ5mfQxU76mhiX55" target="_blank">
           <div class="icon-separator">
             <span>MOMENTS WITH OTHERS MATTER</span>
             <img class="icon" src="${amazonMusicIcon}" alt="Amazon Music Logo" />
-          </div>
-        </a>
-      </div>
-      <div class="platform youtube">
-        <h2>Listen on YouTube Music</h2>
-        <a class="button apple" href="https://music.youtube.com/playlist?list=OLAK5uy_ntruUhVlHjor2lzPXJbhIgqIrjDv6BDTs&si=UARYG-j0mdIdgvqy" target="_blank">
-          <div class="icon-separator">
-            <span>MOMENTS WITH OTHERS MATTER</span>
-            <img class="icon" src="${youtubeMusicIcon}" alt="YouTube Music Logo" />
           </div>
         </a>
       </div>
