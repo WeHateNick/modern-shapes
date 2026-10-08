@@ -46,15 +46,6 @@ document.querySelector('#app').innerHTML = `
           </div>
         </a>
       </div>
-      <div class="platform">
-          <h2>Order Vinyl or CD</h2>
-          <a class="button vinyl" href="https://elasticstage.com/modern-shapes/releases/moments-with-others-matter-album" target="_blank">
-            <div class="icon-separator">
-              <span>MOMENTS WITH OTHERS MATTER</span>
-              <img class="icon" src="${vinylIcon}" alt="Vinyl" />
-            </div>
-          </a>
-      </div>
       <div class="platform amazon">
         <h2>Listen on Amazon Music</h2>
         <a class="button amazon" href="https://music.amazon.com/albums/B0GCCZZSPJ?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_hgfb1IAgMtZ5mfQxU76mhiX55" target="_blank">
